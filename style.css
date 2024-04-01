@@ -3,10 +3,10 @@
  
 /*criando variáveis*/
 :root { 
-    --cor-de-fundo: #005822; 
+    --cor-de-fundo: #090058; 
     --verde: #ff1414; 
     --branco: #FFFFFF; 
-    --botao-ativo: #920c9e; 
+    --botao-ativo: #5b375e; 
     --botao-inativo: rgba(58, 55, 94, 0.5); 
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
