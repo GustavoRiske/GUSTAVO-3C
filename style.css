@@ -1,9 +1,8 @@
-/*aula1- ESTRUTURANDO O SITE*/
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #1e1e1e;
-    --verde: #d10000;
+    --cor-de-fundo: #1E1E1E;
+    --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -35,7 +34,6 @@ body {
 .titulo-principal span {
     color: var(--verde);
 }
-
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
@@ -89,9 +87,26 @@ body {
     text-transform: uppercase;
 }
 
-.contador{  /*aula6*/
-    font-size: 20px;
+.contador{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
     text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -106,4 +121,3 @@ body {
     .botao:last-child {
         border-radius: 0 40px 0 0;
     }
-}
